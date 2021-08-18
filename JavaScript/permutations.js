@@ -4,7 +4,7 @@ let permute = function (nums) {
   let result = [];
 
   if (nums.length === 0) return [];
-  if (nums.length === 0) return [nums];
+  if (nums.length === 1) return [nums];
 
   for (let i = 0; i < nums.length; i++) {
     const currentNum = nums[i];
